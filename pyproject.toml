@@ -5,7 +5,9 @@ description = "Simple graph algorithms"
 authors = [
     {name = "singularitti", email = "singularitti@outlook.com"},
 ]
-dependencies = []
+dependencies = [
+    "networkx>=3.2.1",
+]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
